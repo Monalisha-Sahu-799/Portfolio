@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Monalisha Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+</head>
+
+<body>
+
+<!-- Cursor glow -->
+<div class="cursor-glow"></div>
+
+<!-- Floating Bubbles -->
+<div class="bubbles"></div>
+
+<!-- NAVBAR -->
+
+<nav>
+
+<div class="logo">&lt;/&gt; Monalisha</div>
+
+<div class="menu-toggle" id="menu-toggle">
+&#9776;
+</div>
+
+<ul id="nav-links">
+
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+<div class="social">
+
+<a href="https://github.com/Monalisha-Sahu-799" target="_blank">
+<i class="fa-brands fa-github"></i>
+</a>
+
+<a href="https://www.linkedin.com/in/monalisha-sahu-830b8429a" target="_blank">
+<i class="fa-brands fa-linkedin"></i>
+</a>
+
+</div>
+
+</nav>
+
+<!-- HERO -->
+
+<section id="home" class="section">
+
+<div class="hero">
+
+<div class="hero-text">
+
+<h1>Hey, I'm Monalisha 👋</h1>
+
+<h2><span id="typing"></span></h2>
+
+</div>
+
+<div class="hero-animation">
+
+<div class="circle-ring"></div>
+
+<img src="profile.jpg" class="profile-img" alt="Monalisha">
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about" class="section">
+
+<h2>About Me</h2>
+
+<p>
+I am an AI developer passionate about building intelligent systems and modern web applications. I specialize in Python backend development using FastAPI and enjoy creating AI assistants, chatbots, and scalable applications. I have a strong interest in developing solutions that combine artificial intelligence with practical real-world use cases. My experience includes working with technologies such as Python, FastAPI, HTML, CSS, JavaScript, and SQL to build dynamic and responsive applications. I enjoy designing efficient backend systems, integrating APIs, and developing smart features that improve user interaction and automation. Through various projects, I continuously explore new tools, frameworks, and AI technologies to enhance my skills and stay updated with modern development practices. I am always eager to learn, experiment, and contribute to innovative projects that leverage technology to solve real-world problems and create meaningful digital experiences.
+</p>
+
+</section>
+
+<!-- Skills -->
+
+<section id="skills" class="section">
+
+<h2>Skills</h2>
+
+<div class="card-container">
+
+<div class="card" data-tilt>
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg">
+<p>Python</p>
+</div>
+
+<div class="card" data-tilt>
+<img src="https://cdn.worldvectorlogo.com/logos/fastapi.svg">
+<p>FastAPI</p>
+</div>
+
+<div class="card" data-tilt>
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg">
+<p>HTML</p>
+</div>
+
+<div class="card" data-tilt>
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg">
+<p>CSS</p>
+</div>
+
+<div class="card" data-tilt>
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png">
+<p>JavaScript</p>
+</div>
+
+<div class="card" data-tilt>
+<img src="https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg">
+<p>SQL</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- PROJECTS -->
+
+<section id="projects" class="section">
+
+<h2>Projects</h2>
+
+<div class="card-container">
+
+<div class="card project-card" data-tilt>
+
+<h3>AI Chatbot</h3>
+
+<p>
+An intelligent chatbot capable of answering user queries using AI and natural language processing. 
+It can interact with users in real time and provide meaningful responses.
+</p>
+
+<p class="tech">Tech: Python, FastAPI, JavaScript</p>
+
+</div>
+
+
+<div class="card project-card" data-tilt>
+
+<h3>E-commerce Website</h3>
+
+<p>
+A complete e-commerce platform where users can browse products, add items to cart, 
+and simulate an online shopping experience with a modern UI.
+</p>
+
+<p class="tech">Tech: HTML, CSS, JavaScript</p>
+
+</div>
+
+
+<div class="card project-card" data-tilt>
+
+<h3>Aura AI Assistant</h3>
+
+<p>
+A real AI assistant that can respond to user commands, answer questions, and perform intelligent tasks. 
+It integrates multiple AI capabilities to improve user interaction.
+</p>
+
+<p class="tech">Tech: Python, FastAPI, AI APIs</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact" class="section">
+
+<h2>Contact</h2>
+
+<p>Email: <a href="mailto:monalishasahu285@gmail.com">✉️ monalishasahu285@gmail.com</a></p>
+
+<p>Phone: <a href="tel:+917992831884">📞 +91 7992831884</a></p>
+
+<p>Telegram: <a href="https://t.me/monalisha_sahu_799">📩 @monalisha_sahu_799</a></p>
+
+</section>
+
+<!-- PROJECT MODAL -->
+
+<div id="modal" class="modal">
+
+<div class="modal-content">
+
+<span onclick="closeModal()" class="close">×</span>
+
+<p id="modal-text"></p>
+
+</div>
+
+</div>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
